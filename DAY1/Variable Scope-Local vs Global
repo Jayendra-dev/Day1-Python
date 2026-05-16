@@ -1,0 +1,13 @@
+# Output Kya hoga
+x = 10  # Global variable
+
+def test():
+    x = 5  # Local variable
+    print("Inside:", x)
+
+test()
+print("Outside:", x)
+
+# Output:
+# Inside: 5
+# Outside: 10
